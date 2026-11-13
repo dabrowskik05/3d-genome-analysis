@@ -1,7 +1,12 @@
-*.mcool
-*.cool
-*.mcool
-*.cool
-*.gz
+# Python
 .venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Dane (pobierane przez notebook)
 data/
+*.hic
+*.cool
+*.mcool
+*.gz
+*.bw
